@@ -1,0 +1,11 @@
+//write the C program to find the area and circumfrence of circle//
+#include<stdio.h>
+void main()
+{
+    int r;
+    float pi=3.14;
+    printf("enter a radius:");
+    scanf("%d",&r);
+    printf("\narea of circle:%f",(pi*(r*r)));
+    printf("\ncircumfrence of circle:%f",(2*(pi*r)));
+}
