@@ -1,3 +1,10 @@
+//print the program//
+#include<stdio.h>
+int main()
+{
+  printf("Welcome to world");
+return 0;
+}
 //Write the program add two numbers//
 #include<stdio.h>
 void main()
