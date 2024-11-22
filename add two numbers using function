@@ -1,0 +1,79 @@
+//without return,without parameter
+
+
+#include<stdio.h>
+void add();
+void main()
+{
+    
+    add();
+}
+void add()
+{
+    int a,b;
+    printf("Enter the numbers:");
+    scanf("%d%d",&a,&b);
+    printf("\nthe sum is :%d",a+b);
+}
+*********************************************************************************
+
+//with return,without parameter
+
+
+#include<stdio.h>
+int add();
+void main()
+{
+    int ans;
+    ans=add();
+    printf("\nthe answer is:%d",ans);
+}
+int add()
+{
+    int a,b,sum;
+    printf("Enter the numbers:");
+    scanf("%d%d",&a,&b);
+    sum=a+b;
+    return sum;
+}
+***********************************************************************
+
+//without return,with parameter
+
+
+#include<stdio.h>
+void add();
+void main()
+{
+    int a,b;
+    printf("Enter a numbers:");
+    scanf("%d%d",&a,&b);
+    add(a,b);
+}
+void add(int a,int b)
+{
+    printf("\nthe sum is :%d",a+b);
+}
+*************************************************************************
+
+//with return,with parameter// check it properly
+
+
+#include<stdio.h>
+int add(int a,int b);
+void main()
+{
+    int a,b,ans;
+    printf("Enter the number:");
+    scanf("%d%d",&a,&b); 
+    ans=add(a,b);
+    printf("\nthe answer is:%d",ans);
+}
+int add(int a,int b)
+{
+    int sum;
+    sum=a+b;
+    return sum;
+}
+***************************************************************
+
