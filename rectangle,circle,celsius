@@ -1,0 +1,45 @@
+//To find the area and circumfrence of circle
+
+#include<stdio.h>
+void main()
+{
+    int r;
+    float pi=3.14;
+    printf("enter a radius:");
+    scanf("%d",&r);
+    printf("\narea of circle:%f",(pi*(r*r)));
+    printf("\ncircumfrence of circle:%f",(2*(pi*r)));
+}
+********************************************************************************************************
+//Temperature convertor (Celsius to Farenheit)
+
+#include<stdio.h>
+void main() 
+{
+    int Celcius,Farenheit;
+    printf ("Enter the celcius:");
+    scanf ("%d",&Celcius);
+    Farenheit=(9/5)*(Celcius+32);
+    printf("\nthe Farenheit is:%d",Farenheit);
+}
+****************************************************************************************************************
+//To find the area and perimeter of a rectangle
+
+#include<stdio.h>
+void main()
+{
+    int l,b;
+    printf("enter a value l:");
+    scanf("%d",&l);
+    printf("\nenter a value b:");
+    scanf("%d",&b);
+    printf("\narea of rectancle:%d",l*b);
+    printf("\nperimeter of rectancle:%d",2*(l+b));
+}
+**********************************************************************************************************************
+//
+
+
+
+
+
