@@ -1,0 +1,48 @@
+//To calculate the body mass index calculator
+
+#include<stdio.h>
+void main()
+{
+    float weight,height,BMI;
+    printf("enter a value weight:");
+    scanf("%f",&weight);
+    printf("\nenter a value height:");
+    scanf("%f",&height);
+    printf("\nBMI is:%2f",weight/(height*height));
+}
+*******************************************************************************
+
+//To calculate the ohm's law 
+#include<stdio.h>
+void main()
+{
+    int I,R,V;
+    printf("enter the value of current:");
+    scanf("%d",&I);
+    printf("\nenter the value of resistence:");
+    scanf("%d",&R);
+    V=I*R;
+    printf("\nvelocity:%d",V);
+}
+*************************************************************************************
+                                                                                                                     
+//To calculate the simple interest
+#include<stdio.h>
+void main()
+{
+    int p,n,r;
+    printf("enter a value principal:");
+    scanf("%d",&p);
+    printf("\nenter a value number of years:");
+    scanf("%d",&n);
+    printf("\nenter a value rate of interest");
+    scanf("%d",&r);
+    printf("\nsimple interest:%d",(p*n*r)/100);
+}
+****************************************************************************************
+
+
+
+
+
+
