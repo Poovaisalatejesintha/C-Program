@@ -30,5 +30,67 @@ void main()
         printf ("Invalid day");
     }
 }
-*********************************************************************************************
+**************************************************************************************************
+#include<stdio.h>
+void main()
+{
+    char a;
+     printf("enter a num:");
+    scanf("%d",&a);
+    switch(a)
+    {
+        case 1:
+        printf("Pizza");
+        break;
+        case 2:
+        printf("Burger");
+        break;
+        case 3:
+        printf("Pasta");
+        break;
+        default:
+        printf ("Invalid choice");
+    }
+}
+*************************************************************************************************
+#include<stdio.h>
+void main()
+{
+    char a;
+     printf("enter a char:");
+    scanf("%c",&a);
+    switch(a)
+    {
+        case 'r':
+        printf("stop");
+        break;
+        case 'y':
+        printf("ready");
+        break;
+        case 'g':
+        printf("go");
+        break;
+    }
+}
+*************************************************************************************************
+#include<stdio.h>
+void main() 
+{
+    char C=('a','e','i','o','u');
+      printf ("enter a character:");
+     scanf ("%c",&C);
+    switch (C)
+    {
+        case 'a':
+        case 'e':
+        case 'i':
+        case 'o':
+        case 'u':
+        printf("\nvowel");
+        break;
+        default:
+        printf ("\nconsonants");
+    }
+}
+**************************************************************************************************
 
