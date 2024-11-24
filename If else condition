@@ -1,1 +1,206 @@
+#include<stdio.h>
+void main() 
+{
+    int a;
+    printf ("enter a number:");
+    scanf ("%d",&a);
+    if(a%2==0)
+    {
+        printf ("the given number is even");
+    }
+    else
+    {
+        printf("the given number is odd");
+    }
+    
+}
+*******************************************************************************************
+#include<stdio.h>
+void main() 
+{
+    int a;
+     printf ("enter a number:");
+     scanf ("%d",&a);
+    if(a%5==0&&a%11==0)
+    {
+        printf("\nthe number is divisible by 5 and 11");
+    }
+    else
+    {
+        printf("\nthe number is not divisible by 5 and 11");
+    }
+}
+*********************************************************************************************
+//
+#include<stdio.h>
+void main() 
+{
+    int a;
+    printf ("student mark:");
+    scanf ("%d",&a);
+    if(a>=40)
+    {
+        printf ("pass");
+    }
+    else
+    {
+        printf("fail");
+    }
+}
+********************************************************************************************
+#include<stdio.h>
+int main()
+{
+    int x;
+    printf("person's age :");
+    scanf("%d",&x);
+    if(x>=18)
+    {
+    printf("Eligible to vote");
+    }
+    else
+    {
+    printf("not eligible to vote");
+    }
+    return 0;
+    
+}
+*********************************************************************************************
+//
+#include<stdio.h>
+void main()
+{
+    int a;
+    printf("enter a number:");
+    scanf("%d",&a);
+    if(a>0)
+    {
+        printf("\nThe given number is positive");
+    }
+    else if(a<0)
+    {
+        printf("\nThe given number is negative");
+    }
+    else
+    {
+        printf("\n The given number is zero");
+    }
+}
+***********************************************************************************************
+//
+
+#include<stdio.h>
+void main() 
+{
+    int a;
+    printf ("Enter the temperature:");
+    scanf ("%d",&a);
+    if(a>30)
+    {
+        printf ("Hot");
+    }
+    else if(20<=a&&a>=30)
+    {
+        printf("Warm");
+    }
+    else if(a<20)
+    {
+        printf ("Cold");
+    }
+}
+*****************************************************************************************************
+#include<stdio.h>
+void main()
+{
+    int x,y;
+    printf("enter a value:");
+    scanf("%d%d",&x,&y);
+    if(x>=0&y>=0)
+    {
+        printf("I quadrent");
+    }
+    else if(x<0&y>=0)
+    {
+        printf("II quadrent");
+    }
+    else if(x<0&y<0)
+    {
+        printf("III quadrent");
+    }
+    else if(x>=0&y<0)
+    {
+        printf("IV quadrent");
+    }
+}
+***************************************************************************************
+
+#include<stdio.h>
+void main() 
+{
+    int a,b,c;
+    printf ("enter a numbers:");
+    scanf ("%d%d%d",&a,&b,&c);
+    if(a<c&&b<c)
+    {
+        printf ("c is greater");
+    }
+    else if(a<b&&b>c)
+    {
+        printf("b is greater");
+    }
+    else if(a>b&&a>c)
+    {
+        printf ("a is greater");
+    }
+}
+*************************************************************************************************
+
+#include<stdio.h>
+void main() 
+{
+    int a;
+    printf ("enter a mark:");
+    scanf ("%d",&a);
+    if(a>=90)
+    {
+        printf ("Grade A");
+    }
+    else if(a>=80&&a<=89)
+    {
+        printf ("Grade B");
+    }
+    else if(a>=70&&a<=79)
+    {
+        printf ("Grade C");
+    }
+    else if (a>=60&&a<=69)
+    {
+        printf ("Grade D");
+    }
+    else 
+    {
+        printf ("Grade F");
+    }
+}
+****************************************************************************************
+#include<stdio.h>
+void main() 
+{
+    int a;
+    printf ("customer age:\n");
+    scanf ("%d",&a);
+    if(a<18)
+    {
+        printf ("Discount:20%%");
+    }
+    else if(18<=a&&a<=60)
+    {
+        printf ("Discount:10%%");
+    }
+    else if (a>60)
+    {
+        printf ("Discount:30%%");
+    }
+}
+*********************************************************************************************
 
