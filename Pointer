@@ -1,0 +1,16 @@
+//To print the Variables address and value use pointer
+
+#include<stdio.h>
+void main ()
+{
+    int x=5;
+    int*ptr;
+    ptr=&x;
+    printf ("To print address:");
+    printf ("%p",&x);
+    //printf ("\n%p",ptr);
+    printf ("\nTo print value:");
+    printf ("%d",x);
+    //printf ("\n%d",*ptr);
+}
+*****************************************************************
