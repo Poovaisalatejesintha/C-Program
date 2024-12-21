@@ -1,0 +1,94 @@
+//Sum Of digits
+
+#include<stdio.h>
+int digit(int);
+void main()
+{
+    int n;
+    printf("Enter the number:");
+    scanf("%d",&n);
+    printf("\nsum of digits:%d",digit(n));
+}
+int digit(int n)
+{
+    
+    if(n!=0)
+    {
+        return n%10+digit(n/10);
+    }
+    else
+    {
+        return 0;
+    }
+}
+********************************************************************************************************
+//Sum Of Natural Numbers
+
+#include<stdio.h>
+int sum(int);
+void main()
+{
+    int n;
+    printf("Enter the number:");
+    scanf("%d",&n);
+    printf("\nThe sum of natural number:%d",sum(n));
+}
+int sum(int n)
+{
+    
+    if(n==0)
+    {
+        return 0;
+    }
+    else
+    {
+        return n+sum(n-1);
+    }
+}
+************************************************************************************************************************
+//Reverse the number
+#include<stdio.h>
+int rev(int);
+void main()
+{
+    int n;
+    printf("Enter the number:");
+    scanf("%d",&n);
+    printf("\nReverse:%d",rev(n));
+}
+
+ int rev(int n)
+ {
+    if(n!=0)
+    {
+        n=n%10;
+        printf ("%d",n);
+        n=n/10;
+     return rev(n);
+    }
+   
+ }
+***********************************************************************************************************************************
+//Factorial
+#include<stdio.h>
+int fact(int);
+void main()
+{
+    int n;
+    printf("Enter the number:");
+    scanf("%d",&n);
+    printf("Factorial:%d",fact(n));
+}
+int fact(int n)
+{
+    
+    if(n==1)
+    {
+        return 1;
+    }
+    else
+    {
+        return n*fact(n-1);
+    }
+}
+****************************************************************************************************************
