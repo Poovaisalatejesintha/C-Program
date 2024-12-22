@@ -92,3 +92,32 @@ int fact(int n)
     }
 }
 ****************************************************************************************************************
+//fibbnocci series
+#include <stdio.h>
+int fib(int);
+int t1=0,t2=1,next;
+void main() 
+{
+ int n;
+ printf("Enter the number:");
+ scanf("%d",&n);
+ printf("%d\n%d",t1,t2);
+ fib(n);
+}
+int fib(int n)
+{
+    
+    if(n>2)
+    {
+       next=t1+t2;
+       printf("\n%d",next);
+       t1=t2;
+       t2=next;
+       return fib(n-1);
+    }
+    else
+    {
+        return 1;
+    }
+}
+*************************************************************************************************
